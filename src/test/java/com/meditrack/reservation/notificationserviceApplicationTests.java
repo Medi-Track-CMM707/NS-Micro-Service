@@ -3,8 +3,8 @@ package com.meditrack.notificationservice;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest(classes = notificationserviceApplication.class)
-class notificationserviceApplicationTests {
+@SpringBootTest(classes = NotificationServiceApplication.class)
+class NotificationServiceApplication {
 
 	@Test
 	void contextLoads() {
