@@ -1,7 +1,7 @@
 package com.meditrack.notificationservice.exception;
 
 
-import com.meditrack.notificationservice.constant.ErrorCode;
+
 import com.meditrack.notificationservice.model.dto.ErrorResponseDTO;
 import jakarta.annotation.Nullable;
 import lombok.extern.slf4j.Slf4j;

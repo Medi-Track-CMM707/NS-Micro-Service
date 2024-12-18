@@ -1,6 +1,6 @@
 package com.meditrack.notificationservice.exception;
 
-import com.meditrack.notificationservice.constant.ErrorCode;
+
 import lombok.Getter;
 
 @Getter
