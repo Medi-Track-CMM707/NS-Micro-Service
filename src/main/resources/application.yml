@@ -25,7 +25,7 @@ spring:
 server:
   port: 8080
   servlet:
-    context-path: /rs
+    context-path: /ns
 
 debug: false
 
@@ -38,5 +38,5 @@ logging:
 
 springdoc:
   swagger-ui:
-    config-url: /rs/v3/api-docs/swagger-config
-    url: /rs/v3/api-docs
+    config-url: /ns/v3/api-docs/swagger-config
+    url: /ns/v3/api-docs
