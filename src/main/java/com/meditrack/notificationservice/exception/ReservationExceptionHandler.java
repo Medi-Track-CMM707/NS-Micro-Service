@@ -1,8 +1,8 @@
-package com.meditrack.reservation.exception;
+package com.meditrack.notificationservice.exception;
 
 
-import com.meditrack.reservation.constant.ErrorCode;
-import com.meditrack.reservation.model.dto.ErrorResponseDTO;
+import com.meditrack.notificationservice.constant.ErrorCode;
+import com.meditrack.notificationservice.model.dto.ErrorResponseDTO;
 import jakarta.annotation.Nullable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
@@ -21,7 +21,7 @@ import java.util.Map;
 
 @ControllerAdvice
 @Slf4j
-public class ReservationExceptionHandler extends ResponseEntityExceptionHandler {
+public class notificationserviceExceptionHandler extends ResponseEntityExceptionHandler {
 
 
     @ExceptionHandler({Exception.class})

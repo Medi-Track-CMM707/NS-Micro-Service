@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.meditrack</groupId>
-    <artifactId>reservation</artifactId>
+    <artifactId>notificationservice</artifactId>
     <version>0.0.1</version>
-    <name>reservation-service</name>
+    <name>notificationservice-service</name>
     <description>Manages doctor availability and appointment bookings.</description>
     <properties>
         <java.version>17</java.version>
@@ -148,7 +148,7 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>reservation-service</finalName>
+        <finalName>notificationservice-service</finalName>
     </build>
 
 </project>

@@ -1,4 +1,4 @@
-package com.meditrack.reservation.util;
+package com.meditrack.notificationservice.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

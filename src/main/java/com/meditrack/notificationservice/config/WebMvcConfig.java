@@ -1,6 +1,6 @@
-package com.meditrack.notification.config;
+package com.meditrack.notificationservice.config;
 
-import com.meditrack.notification.interceptor.HeaderInterceptor;
+import com.meditrack.notificationservice.interceptor.HeaderInterceptor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

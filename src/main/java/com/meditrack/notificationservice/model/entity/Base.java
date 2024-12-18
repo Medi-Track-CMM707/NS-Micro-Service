@@ -1,4 +1,4 @@
-package com.meditrack.reservation.model.entity;
+package com.meditrack.notificationservice.model.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;

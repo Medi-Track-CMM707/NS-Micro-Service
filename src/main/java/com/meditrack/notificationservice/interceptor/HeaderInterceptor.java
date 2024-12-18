@@ -1,8 +1,8 @@
-package com.meditrack.reservation.interceptor;
+package com.meditrack.notificationservice.interceptor;
 
-import com.meditrack.reservation.constant.ErrorCode;
-import com.meditrack.reservation.exception.ReservationInvalidRequestException;
-import com.meditrack.reservation.service.HeaderReadService;
+import com.meditrack.notificationservice.constant.ErrorCode;
+import com.meditrack.notificationservice.exception.notificationserviceInvalidRequestException;
+import com.meditrack.notificationservice.service.HeaderReadService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -40,7 +40,7 @@ public class HeaderInterceptor implements HandlerInterceptor {
             if (headerPath.contains("/rs/swagger-ui.html") || headerPath.contains("/rs/v3/api-docs") || headerPath.contains("/rs/swagger-ui/")) {
                 return true;
             }
-            throw new ReservationInvalidRequestException(ErrorCode.PRM_003002, "Invalid header details/ header details are missing. x-hospital and x-user are mandatory headers.");
+            throw new notificationserviceInvalidRequestException(ErrorCode.PRM_003002, "Invalid header details/ header details are missing. x-hospital and x-user are mandatory headers.");
         }
         return true;
     }

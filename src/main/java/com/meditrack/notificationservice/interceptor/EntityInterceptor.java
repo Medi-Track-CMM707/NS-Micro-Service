@@ -1,8 +1,8 @@
-package com.meditrack.reservation.interceptor;
+package com.meditrack.notificationservice.interceptor;
 
-import com.meditrack.reservation.model.entity.Base;
-import com.meditrack.reservation.service.HeaderReadService;
-import com.meditrack.reservation.util.ApplicationUtil;
+import com.meditrack.notificationservice.model.entity.Base;
+import com.meditrack.notificationservice.service.HeaderReadService;
+import com.meditrack.notificationservice.util.ApplicationUtil;
 import jakarta.persistence.PrePersist;
 
 public class EntityInterceptor {
